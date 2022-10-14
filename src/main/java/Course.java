@@ -5,7 +5,7 @@ import org.joda.time.LocalDate;
 public class Course {
     private String courseName;
     private ArrayList<Student> students;
-    private ArrayList<Module> modules;
+    private ArrayList<SingleModule> modules;
     private LocalDate startDate;
     private LocalDate endDate;
 
