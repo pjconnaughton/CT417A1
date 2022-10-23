@@ -34,6 +34,8 @@ public class Student {
         this.dob = dob;
         this.id = id;
         createUsername();
+        modules = new ArrayList<SingleModule>();
+        courses = new ArrayList<Course>();
     }
 
     public void createUsername() {

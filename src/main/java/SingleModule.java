@@ -12,6 +12,8 @@ public class SingleModule {
         this.name = name;
         this.moduleID = moduleID;
         this.lecturer = lecturer;
+        courses = new ArrayList<Course>();
+        students = new ArrayList<Student>();
     }
 
     public void addStudent(Student s) {

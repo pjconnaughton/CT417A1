@@ -15,6 +15,7 @@ public class Lecturer {
         this.dob = dob;
         this.id = id;
         createUsername();
+        modules = new ArrayList<SingleModule>();
     }
 
     public void createUsername() {

@@ -11,6 +11,8 @@ public class Course {
 
     public Course(String name) {
         courseName = name;
+        students = new ArrayList<Student>();
+        modules = new ArrayList<SingleModule>();
     }
 
     public void setStartDate(LocalDate start) {
