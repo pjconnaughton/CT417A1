@@ -20,4 +20,32 @@ public class Course {
     public void setEndDate(LocalDate end) {
         endDate = end;
     }
+
+    public void addModule(SingleModule m) {
+        modules.add(m);
+    }
+
+    public void addStudent(Student s) {
+        students.add(s);
+    }
+
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
+
+    public ArrayList<SingleModule> getModules() {
+        return modules;
+    }
+
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+    public LocalDate getEndDate() {
+        return endDate;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
 }
